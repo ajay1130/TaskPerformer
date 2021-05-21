@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:text="Name: Ajay"
+        android:id="@+id/displayname"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email: ajaykori2130@gmail.com"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:id="@+id/displayemail"
+        android:textSize="18sp"/>
+
+</LinearLayout>

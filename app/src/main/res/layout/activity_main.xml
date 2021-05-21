@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/loginlayout"
+ >
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/taskgiventext"
+            android:gravity="center"
+            android:textSize="32sp"
+            android:fontFamily="@font/karla"
+            android:textStyle="bold"
+           android:layout_marginTop="24dp"
+            android:layout_marginBottom="18dp"
+           />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"
+            android:layout_marginBottom="24dp"/>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_margin="16dp"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:onClick="performTask1"
+            android:text="@string/task1text"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_margin="16dp"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:onClick="performTask2"
+            android:text="@string/task2text"
+            />
+
+
+</LinearLayout>
+</ScrollView>
+

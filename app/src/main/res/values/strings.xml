@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Task Performer</string>
+    <string name="passwordhint">Enter Password</string>
+    <string name="emailhint">Enter Email id</string>
+    <string name="loginbuttontext">Login</string>
+    <string name="emailid">test@android.com</string>
+    <string name="password">123456</string>
+    <string name="task1text">Task1</string>
+    <string name="task2text">Task2</string>
+    <string name="taskgiventext">Click On Task To Perform</string>
+    <string name="namehint">Enter Name</string>
+
+</resources>
